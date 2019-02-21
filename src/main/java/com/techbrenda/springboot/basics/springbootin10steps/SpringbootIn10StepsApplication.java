@@ -10,9 +10,9 @@ public class SpringbootIn10StepsApplication {
 	public static void main(String[] args) {
 		ApplicationContext appContext = SpringApplication.run(SpringbootIn10StepsApplication.class, args);
 		
-		for (String name : appContext.getBeanDefinitionNames()) {
-			System.out.println(name);
-		}
+//		for (String name : appContext.getBeanDefinitionNames()) {
+//			System.out.println(name);
+//		}
 	}
 
 }
